@@ -1,6 +1,8 @@
 #include <stdio.h>
+#include<string.h>
 #include "phone.h"
-
+extern struct Contact PhoneBook[MAX];
+extern int size;
 void registerPhoneData();
 void printAll();
 void searchByName();
@@ -30,38 +32,4 @@ int main()
 	return 0;
 }
 
-/*****************
-** Your code..
-** This function should be implemented in register.c
-*************************/
-void registerPhoneData()
-{
-    printf("Registration\n");
-}
 
-/*****************
-** Your code..
-** This function should be implemented in search.c
-*************************/
-void printAll()
-{
-    printf("Print all contants in the PhoneBook\n");
-}
-
-/*****************
-** Your code..
-** This function should be implemented in search.c
-*************************/
-void searchByName()
-{
-    printf("Search by Name\n");
-}
-
-/*****************
-** Your code..
-** This function should be implemented in delete.c
-*************************/
-void deleteByName()
-{
-    printf("Deletion is done\n");
-}

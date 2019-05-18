@@ -1,6 +1,6 @@
 // array of sturcure
 
-# define MAX 50
+#define MAX 50
 
 struct Contact
 {
